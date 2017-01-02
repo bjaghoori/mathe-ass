@@ -1,0 +1,26 @@
+{
+  "name": "mathe-ass",
+  "version": "1.0.0",
+  "description": "React Playground",
+  "scripts": {
+    "compile": "tsc --project ./src",
+    "dev": "npm run compile",
+    "start": "webpack-dev-server --hot --inline --config ./devapp/webpack.config.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^15.0.0",
+    "@types/react-dom": "^0.14.20",
+    "lodash": "4.12.0",
+    "materialize-css": "0.97.8",
+    "mkdirp": "0.5.1",
+    "ncp": "2.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "source-map-loader": "0.1.5",
+    "tslint": "3.10.2",
+    "typescript": "2.1.4",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
+  }
+}
